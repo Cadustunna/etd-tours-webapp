@@ -22,23 +22,30 @@ abstract class Controller {
         }
     }
     
-    protected function returnView($viewModel, $fullView)
+    protected function returnView($viewModel, $fullView = true)
     {
         if (!is_array($viewModel)) {
             $viewModel = [];
         }
 
-        // Extract variables from the viewModel
-        extract($viewModel); 
+        extract($viewModel);
 
-        // Specify the path for the view file
-        $view = 'views/' . get_class($this) . '/' . $this->action . '.php';
+        // Path for the main layout
+        $mainView = APP_ROOT . '/views/main.php';
+
+        // Path for the specific view (controller/action)
+        $view = APP_ROOT . '/views/' . strtolower(get_class($this)) . '/' . $this->action . '.php';
 
         if ($fullView) {
-            require_once('views/main.php');
+            if (!file_exists($view)) {
+                die("View file not found at $view");
+            }
+            require_once($mainView);  // main.php will now have $view
         } else {
+            if (!file_exists($view)) {
+                die("View file not found at $view");
+            }
             require_once($view);
         }
     }
 }
-

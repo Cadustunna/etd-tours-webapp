@@ -11,7 +11,7 @@
      <!-- The slideshow/carousel -->
      <div class="carousel-inner"> <!-- Removed 'home-slider' div -->
 
-     <div class="carousel-item active slide" style="background: url('/etd_tours/public/assets/images/tour1.jpg') 
+     <div class="carousel-item active slide" style="background: url('assets/images/tour1.jpg') 
      no-repeat center center/cover; height: 500px;">
      <div class="content text-center text-white d-flex flex-column justify-content-center align-items-center h-100">
           <span class="fs-2 fw-bolder text-light animate__animated animate__fadeInDown">Explore, Discover, Travel.</span>
@@ -20,7 +20,7 @@
      </div>
      </div>
 
-     <div class="carousel-item slide" style="background: url('/etd_tours/public/assets/images/tour2.jpg') no-repeat center center/cover; height: 500px;">
+     <div class="carousel-item slide" style="background: url('assets/images/tour2.jpg') no-repeat center center/cover; height: 500px;">
           <div class="content text-center text-white d-flex flex-column justify-content-center align-items-center h-100">
           <span class="fs-2 fw-bolder text-light animate__animated animate__fadeInDown">Explore, Discover, Travel.</span>
           <h3 class="fw-bold animate__animated animate__zoomIn">Discover New Places</h3>
@@ -28,7 +28,7 @@
           </div>
      </div>
 
-     <div class="carousel-item slide" style="background: url('/etd_tours/public/assets/images/tour3.jpg') no-repeat center center/cover; height: 500px;">
+     <div class="carousel-item slide" style="background: url('assets/images/tour3.jpg') no-repeat center center/cover; height: 500px;">
           <div class="content text-center text-white d-flex flex-column justify-content-center align-items-center h-100">
           <span class="fs-2 fw-bolder text-light animate__animated animate__fadeInDown">Explore, Discover, Travel.</span>
           <h3 class="fw-bold animate__animated animate__zoomIn">Embrace New Cultures.</h3>

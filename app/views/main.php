@@ -1,5 +1,5 @@
-<?php require_once('views/includes/header.php'); ?>
-<?php require_once('views/includes/navbar.php'); ?>
+<?php require_once(APP_ROOT . '/views/includes/header.php'); ?>
+<?php require_once(APP_ROOT . '/views/includes/navbar.php'); ?>
 
 <div class="container-fluid">
      <div class="row">
@@ -12,4 +12,7 @@
 </div>
 
 
-<?php require_once('views/includes/footer.php'); ?>
+<?
+     // Include header, footer, or other includes using APP_ROOT
+     require_once(APP_ROOT . '/views/includes/footer.php');
+?>

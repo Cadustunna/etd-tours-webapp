@@ -57,10 +57,13 @@
 
 
 
+<!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-=
-<script src="/etd_tours/public/assets/jquery.js"></script>  
-<script src="/etd_tours/public/assets/script.js"></script>  
-<script src="/etd_tours/public/assets/js/bootstrap.min.js"></script>
+
+<!-- jQuery if your custom scripts need it -->
+<script src="assets/jquery.js"></script>
+
+<!-- Your custom JS -->
+<script src="assets/script.js"></script>
 </body>
 </html>
