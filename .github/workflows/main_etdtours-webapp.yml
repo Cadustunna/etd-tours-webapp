@@ -57,4 +57,4 @@ jobs:
           app-name: 'etdtours-webapp'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_680F3A65F2BC4BE0B38EAF234763DE01 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_883AF104950248CABC4D44B84542C84D }}
