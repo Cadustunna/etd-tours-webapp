@@ -7,7 +7,7 @@ session_start();
 ob_start();
 
 // --- Include core app classes first ---
-require_once(APP_ROOT . '/config.php');
+require_once __DIR__ . '/../app/config.php';
 require_once(APP_ROOT . '/classes/Controller.php');  // Base class must be first
 require_once(APP_ROOT . '/classes/Model.php');
 require_once(APP_ROOT . '/classes/Boostrap.php');
